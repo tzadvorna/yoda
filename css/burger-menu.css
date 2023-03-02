@@ -1,0 +1,28 @@
+.burger-icon {
+    font-size: 3rem;
+}
+
+#burger-checkbox {
+    display: none;
+}
+
+.header-nav__menu-list {
+    display: none;
+}
+
+#burger-checkbox:checked ~ .header-nav__menu-list {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 500px) {
+    .burger-icon {
+        display: none;
+    }
+
+    #burger-checkbox:checked ~ .header-nav__menu-list,
+    .header-nav__menu-list {
+        display: flex;
+        flex-direction: row;
+}
+    }

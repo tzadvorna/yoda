@@ -1,0 +1,17 @@
+.product-card {
+  border: 1px solid var(--background-color);
+  padding: 5px;
+}
+
+@media (min-width: 500px) {
+  .main-products__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+  }
+}
+@media (min-width: 800px) {
+  .main-products__list {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}

@@ -1,0 +1,18 @@
+.button {
+  background-color: var(--button-color);
+  border: 1px solid #cccccc;
+  color: var(--button-text-color);
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.button:hover {
+  background-color: var(--button-color-hover);
+}
